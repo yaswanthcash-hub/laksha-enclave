@@ -395,21 +395,21 @@ export default function LocationSection() {
             <div className="absolute inset-0 bg-gradient-to-t from-slate-900/40 via-transparent to-transparent pointer-events-none" />
 
             {/* Floating Top GPS Badge */}
-            <div className="absolute top-4 left-4 sm:top-6 sm:left-6 p-3 sm:p-4 rounded-2xl bg-white/95 backdrop-blur-md border border-sky-900/15 shadow-xl flex items-center space-x-3 pointer-events-none">
+            <div className="absolute top-4 left-4 sm:top-6 sm:left-6 p-3 sm:p-4 rounded-2xl bg-white border border-sky-900/20 shadow-xl flex items-center space-x-3 pointer-events-none">
               <span className="w-3 h-3 rounded-full bg-emerald-600 animate-ping" />
               <div>
                 <span className="text-xs sm:text-sm font-bold text-[#14382C] block">
-                  Laksh Enclave Site · 0 KM from Toll Gate
+                  Laksha Enclave Site · 0 KM from Toll Gate
                 </span>
-                <span className="text-[10px] sm:text-xs text-slate-500 font-medium block">
+                <span className="text-[10px] sm:text-xs text-slate-600 font-medium block">
                   Kondarahalli, Malur Taluk, Karnataka 563130
                 </span>
               </div>
             </div>
 
             {/* Floating Bottom Prompt */}
-            <div className="absolute bottom-4 right-4 sm:bottom-6 sm:right-6 p-2.5 sm:p-3 rounded-xl bg-white/95 backdrop-blur-md border border-sky-900/15 text-xs font-bold text-[#14382C] flex items-center space-x-2 shadow-xl">
-              <ZoomIn className="w-4 h-4 text-sky-600" />
+            <div className="absolute bottom-4 right-4 sm:bottom-6 sm:right-6 p-2.5 sm:p-3 rounded-xl bg-white border border-sky-900/20 text-xs font-bold text-[#14382C] flex items-center space-x-2 shadow-xl">
+              <ZoomIn className="w-4 h-4 text-sky-700" />
               <span>Click to Zoom &amp; Inspect Map Nodes</span>
             </div>
           </div>

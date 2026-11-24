@@ -175,7 +175,7 @@ export default function Hero({ onOpenEnquiry, onExploreMasterplan }: HeroProps) 
           {/* Eyebrow in Elegant Italic Serif with Gold Rule */}
           <div className="flex items-center space-x-2.5 sm:space-x-3 mb-2.5 sm:mb-4">
             <span className="w-6 sm:w-12 h-[2px] bg-[#C8A251]" />
-            <span className="font-serif italic text-base sm:text-2xl md:text-3xl text-[#9A7B38] tracking-wider">
+            <span className="font-serif italic text-base sm:text-2xl md:text-3xl text-[#7A5C22] tracking-wider font-medium">
               Luxurious Villa Plots
             </span>
           </div>
@@ -183,7 +183,7 @@ export default function Hero({ onOpenEnquiry, onExploreMasterplan }: HeroProps) 
           {/* Grand Serif Master Headline */}
           <h1 className="font-serif text-2xl sm:text-4xl md:text-5xl lg:text-[60px] font-normal text-[#14382C] tracking-tight leading-[1.12] sm:leading-[1.08] mb-3 sm:mb-4">
             Built on Stature &amp; Open Skies, <br />
-            <span className="text-[#9A7B38] italic font-normal">
+            <span className="text-[#7A5C22] italic font-normal">
               Bengaluru–Chennai Expressway (NE7)
             </span>
           </h1>
@@ -195,8 +195,8 @@ export default function Hero({ onOpenEnquiry, onExploreMasterplan }: HeroProps) 
           </p>
 
           {/* Subtle Warm Champagne Trust Badge */}
-          <div className="inline-flex items-center space-x-2 px-3 sm:px-3.5 py-1.5 rounded-full bg-[#FAF1DC]/90 backdrop-blur-md border border-[#DFBE85]/60 text-[#7A5C22] mb-5 sm:mb-8 text-[10px] sm:text-xs shadow-xs">
-            <ShieldCheck className="w-3.5 h-3.5 text-[#9A7B38] shrink-0" />
+          <div className="inline-flex items-center space-x-2 px-3 sm:px-3.5 py-1.5 rounded-full bg-[#FAF1DC] border border-[#DFBE85]/70 text-[#7A5C22] mb-5 sm:mb-8 text-[10px] sm:text-xs shadow-xs">
+            <ShieldCheck className="w-3.5 h-3.5 text-[#7A5C22] shrink-0" />
             <span className="font-semibold tracking-wide">
               Exclusive Founding Allocation • 100% Freehold Clear Titles
             </span>
@@ -216,9 +216,9 @@ export default function Hero({ onOpenEnquiry, onExploreMasterplan }: HeroProps) 
             {/* Secondary Crisp Light Frosted Button */}
             <button
               onClick={onOpenEnquiry}
-              className="w-full sm:w-auto px-6 sm:px-9 py-3.5 sm:py-4 rounded-sm bg-white/90 hover:bg-white text-[#14382C] border border-[#DFBE85]/80 hover:border-[#C8A251] font-semibold text-xs sm:text-sm uppercase tracking-widest backdrop-blur-md transition-all cursor-pointer flex items-center justify-center space-x-2 active:scale-[0.98] group shadow-md"
+              className="w-full sm:w-auto px-6 sm:px-9 py-3.5 sm:py-4 rounded-sm bg-white hover:bg-[#FAF8F5] text-[#14382C] border border-[#DFBE85]/80 hover:border-[#C8A251] font-semibold text-xs sm:text-sm uppercase tracking-widest transition-all cursor-pointer flex items-center justify-center space-x-2 active:scale-[0.98] group shadow-md"
             >
-              <Download className="w-4 h-4 text-[#9A7B38] transition-transform group-hover:-translate-y-0.5" />
+              <Download className="w-4 h-4 text-[#7A5C22] transition-transform group-hover:-translate-y-0.5" />
               <span>REQUEST BROCHURE &amp; DETAILS</span>
             </button>
           </div>
@@ -230,8 +230,8 @@ export default function Hero({ onOpenEnquiry, onExploreMasterplan }: HeroProps) 
          ========================================================================= */}
       <div className="relative z-20 w-full max-w-[1850px] mx-auto px-4 sm:px-8 lg:px-12 xl:px-14 pb-3 sm:pb-4 flex flex-col sm:flex-row sm:items-end justify-between gap-2.5 sm:gap-3">
         {/* Left: Active Slide Identifier */}
-        <div className="flex items-center space-x-2.5 sm:space-x-3 bg-[#FAF5EB]/95 backdrop-blur-md px-3 sm:px-4 py-1.5 sm:py-2 rounded-xl border border-[#DFBE85]/50 shadow-md w-fit text-[#14382C]">
-          <span className="font-serif text-base sm:text-xl font-bold text-[#9A7B38]">
+        <div className="flex items-center space-x-2.5 sm:space-x-3 bg-[#FAF8F5] px-3 sm:px-4 py-1.5 sm:py-2 rounded-xl border border-[#DFBE85]/70 shadow-lg w-fit text-[#14382C]">
+          <span className="font-serif text-base sm:text-xl font-bold text-[#7A5C22]">
             {currentSlide.number}
           </span>
           <span className="text-[#14382C]/30 text-xs sm:text-sm">/</span>
@@ -241,14 +241,14 @@ export default function Hero({ onOpenEnquiry, onExploreMasterplan }: HeroProps) 
             <span className="text-xs sm:text-sm font-semibold text-[#14382C] tracking-wide truncate max-w-[190px] sm:max-w-none">
               {currentSlide.title}
             </span>
-            <span className="text-[10px] text-[#9A7B38] font-medium truncate hidden sm:block">
+            <span className="text-[10px] text-[#7A5C22] font-semibold truncate hidden sm:block">
               {currentSlide.badge}
             </span>
           </div>
         </div>
 
         {/* Right: Slide Selector Controls (Dots/Numbers + Play/Pause + Chevrons + 3s Indicator) */}
-        <div className="flex items-center gap-2 bg-[#FAF5EB]/95 backdrop-blur-md px-3 sm:px-4 py-2 sm:py-2.5 rounded-xl border border-[#DFBE85]/50 text-[#14382C] w-fit self-end sm:self-auto shadow-md relative overflow-hidden">
+        <div className="flex items-center gap-2 bg-[#FAF8F5] px-3 sm:px-4 py-2 sm:py-2.5 rounded-xl border border-[#DFBE85]/70 text-[#14382C] w-fit self-end sm:self-auto shadow-lg relative overflow-hidden">
           {/* Top 3s Animated Progress Line */}
           {isPlaying && (
             <div className="absolute top-0 left-0 right-0 h-[2px] bg-[#14382C]/10 overflow-hidden">

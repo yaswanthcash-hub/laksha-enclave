@@ -22,13 +22,40 @@ export default function LeadModal({
   const [email, setEmail] = useState("");
   const [plotPreference, setPlotPreference] = useState(preSelectedPlotId || "1200_SQFT");
   const [timing, setTiming] = useState("THIS_WEEKEND");
+  const [isSubmitting, setIsSubmitting] = useState(false);
   const [submitted, setSubmitted] = useState(false);
 
   if (!isOpen) return null;
 
-  const handleSubmit = (e: React.FormEvent) => {
+  const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
-    setSubmitted(true);
+    setIsSubmitting(true);
+
+    try {
+      await fetch("/api/lead", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({
+          name,
+          phone,
+          email,
+          plotPreference: preSelectedPlotId
+            ? `Plot ${preSelectedPlotId}`
+            : preSelectedVillaName || plotPreference,
+          timing,
+          source: preSelectedPlotId
+            ? "plot_matrix_lead_modal"
+            : preSelectedVillaName
+            ? "villa_design_lead_modal"
+            : "general_lead_modal",
+        }),
+      });
+    } catch (err) {
+      console.error("Lead submission error:", err);
+    } finally {
+      setIsSubmitting(false);
+      setSubmitted(true);
+    }
   };
 
   return (
@@ -140,9 +167,10 @@ export default function LeadModal({
               <div className="pt-2">
                 <button
                   type="submit"
-                  className="w-full bg-[#14382C] hover:bg-[#1D4E3E] text-white py-3.5 rounded-lg font-sans text-xs uppercase tracking-[0.14em] font-bold transition-all shadow-[0_4px_16px_rgba(20,56,44,0.25)]"
+                  disabled={isSubmitting}
+                  className="w-full bg-[#14382C] hover:bg-[#1D4E3E] disabled:opacity-75 text-white py-3.5 rounded-lg font-sans text-xs uppercase tracking-[0.14em] font-bold transition-all shadow-[0_4px_16px_rgba(20,56,44,0.25)] flex items-center justify-center space-x-2"
                 >
-                  {LEAD_MODAL_COPY.form.submitButton}
+                  <span>{isSubmitting ? "Submitting Inquiry..." : LEAD_MODAL_COPY.form.submitButton}</span>
                 </button>
               </div>
 

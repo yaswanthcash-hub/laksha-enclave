@@ -253,19 +253,19 @@ export default function InfrastructureSection() {
             </div>
 
             {/* Top Left: Slide Index Badge in Crisp Light Tone */}
-            <div className="absolute top-4 left-4 sm:top-7 sm:left-7 z-20 flex items-center gap-2 px-3 sm:px-3.5 py-1.5 rounded-full bg-white/92 backdrop-blur-md text-[#14382C] border border-[#D5C29D]/60 text-xs font-mono shadow-md">
-              <span className="text-[#8C6D34] font-bold">0{currentIdx + 1}</span>
+            <div className="absolute top-4 left-4 sm:top-7 sm:left-7 z-20 flex items-center gap-2 px-3 sm:px-3.5 py-1.5 rounded-full bg-white text-[#14382C] border border-[#DFBE85]/70 text-xs font-mono shadow-md">
+              <span className="text-[#6E5019] font-bold">0{currentIdx + 1}</span>
               <span className="text-[#14382C]/40">/</span>
               <span className="text-[#14382C]/70">0{INFRASTRUCTURE_SLIDES.length}</span>
-              <span className="w-1 h-1 rounded-full bg-[#8C6D34] mx-0.5" />
+              <span className="w-1 h-1 rounded-full bg-[#6E5019] mx-0.5" />
               <span className="text-[11px] font-sans uppercase tracking-wider text-[#14382C] font-semibold truncate max-w-[120px] sm:max-w-none">
                 {currentSlide.category}
               </span>
             </div>
 
             {/* Top Right: Small 3s Timer Badge in Warm Sand Light */}
-            <div className="absolute top-4 right-4 sm:top-7 sm:right-7 z-20 flex items-center gap-1.5 sm:gap-2 px-2.5 sm:px-3.5 py-1.5 rounded-full bg-[#FAF1DC]/95 backdrop-blur-md text-[#7A5C22] border border-[#DFBE85]/60 text-[11px] sm:text-xs font-bold shadow-md">
-              <span className={`w-2 h-2 rounded-full bg-[#8C6D34] ${!isPaused ? "animate-ping" : "opacity-50"}`} />
+            <div className="absolute top-4 right-4 sm:top-7 sm:right-7 z-20 flex items-center gap-1.5 sm:gap-2 px-2.5 sm:px-3.5 py-1.5 rounded-full bg-[#FAF1DC] text-[#6E5019] border border-[#DFBE85]/70 text-[11px] sm:text-xs font-bold shadow-md">
+              <span className={`w-2 h-2 rounded-full bg-[#6E5019] ${!isPaused ? "animate-ping" : "opacity-50"}`} />
               <span className="tracking-wide">⏱ 3s Timer</span>
             </div>
 
@@ -303,9 +303,9 @@ export default function InfrastructureSection() {
                   {currentSlide.floatingBadges.map((badge, bIdx) => (
                     <div
                       key={bIdx}
-                      className="px-3.5 py-1.5 rounded-full bg-white/92 backdrop-blur-md border border-[#DFBE85]/50 text-[#14382C] text-xs font-semibold shadow-md flex items-center space-x-2"
+                      className="px-3.5 py-1.5 rounded-full bg-white border border-[#DFBE85]/70 text-[#14382C] text-xs font-bold shadow-md flex items-center space-x-2"
                     >
-                      <CheckCircle2 className="w-3.5 h-3.5 text-emerald-600 shrink-0" />
+                      <CheckCircle2 className="w-3.5 h-3.5 text-emerald-800 shrink-0" />
                       <span>{badge}</span>
                     </div>
                   ))}
@@ -319,7 +319,7 @@ export default function InfrastructureSection() {
             {/* Bottom Caption & Interactive Dots Controller */}
             <div className="absolute bottom-5 left-4 right-4 sm:bottom-8 sm:left-10 sm:right-10 text-white z-20">
               <div className="max-w-3xl">
-                <div className="inline-flex items-center space-x-2 px-3 py-1 rounded-md bg-[#FAF1DC]/90 backdrop-blur-md border border-[#DFBE85]/60 text-[#7A5C22] text-[11px] uppercase tracking-wider font-bold mb-2 shadow-xs">
+                <div className="inline-flex items-center space-x-2 px-3 py-1 rounded-md bg-[#FAF1DC] border border-[#DFBE85]/70 text-[#6E5019] text-[11px] uppercase tracking-wider font-bold mb-2 shadow-xs">
                   <span>{currentSlide.category}</span>
                 </div>
 
@@ -336,7 +336,7 @@ export default function InfrastructureSection() {
                   {currentSlide.floatingBadges.slice(0, 2).map((badge, bIdx) => (
                     <span
                       key={bIdx}
-                      className="px-2.5 py-1 rounded-full bg-white/92 backdrop-blur-md border border-[#DFBE85]/50 text-[#14382C] text-[10px] font-semibold shadow-sm"
+                      className="px-2.5 py-1 rounded-full bg-white border border-[#DFBE85]/70 text-[#14382C] text-[10px] font-bold shadow-sm"
                     >
                       ✦ {badge}
                     </span>

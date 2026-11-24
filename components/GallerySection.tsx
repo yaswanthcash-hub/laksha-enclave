@@ -276,18 +276,18 @@ export default function GallerySection() {
           {/* Top Bar with Category Badge, Counter & 3s Indicator */}
           <div className="absolute top-4 left-4 right-4 flex items-center justify-between z-20">
             <div className="flex items-center gap-2">
-              <span className="text-[10px] uppercase font-bold tracking-wider px-3 py-1 rounded-full bg-white/95 backdrop-blur-md text-[#14382C] border border-[#14382C]/10 shadow-md">
+              <span className="text-[10px] uppercase font-bold tracking-wider px-3 py-1 rounded-full bg-white text-[#14382C] border border-[#14382C]/15 shadow-md">
                 {GALLERY_ITEMS[spotlightIndex].categoryLabel}
               </span>
-              <span className="text-[10px] font-mono px-2.5 py-1 rounded-full bg-white/92 backdrop-blur-md text-[#14382C] border border-[#DFBE85]/50 shadow-sm font-semibold">
+              <span className="text-[10px] font-mono px-2.5 py-1 rounded-full bg-white text-[#14382C] border border-[#DFBE85]/70 shadow-sm font-bold">
                 {spotlightIndex + 1} / {GALLERY_ITEMS.length}
               </span>
             </div>
 
             {/* 3s Auto Badge & Play/Pause */}
             <div className="flex items-center gap-2">
-              <div className="flex items-center gap-1.5 px-3 py-1 rounded-full bg-[#FAF1DC]/95 backdrop-blur-md text-[#7A5C22] border border-[#DFBE85]/60 text-[10px] sm:text-xs font-bold shadow-md">
-                <span className={`w-1.5 h-1.5 rounded-full bg-[#8C6D34] ${!spotlightPaused ? "animate-ping" : "opacity-50"}`} />
+              <div className="flex items-center gap-1.5 px-3 py-1 rounded-full bg-[#FAF1DC] text-[#6E5019] border border-[#DFBE85]/70 text-[10px] sm:text-xs font-bold shadow-md">
+                <span className={`w-1.5 h-1.5 rounded-full bg-[#6E5019] ${!spotlightPaused ? "animate-ping" : "opacity-50"}`} />
                 <span className="tracking-wide">⏱ 3s Auto</span>
               </div>
 
@@ -296,10 +296,10 @@ export default function GallerySection() {
                   e.stopPropagation();
                   setSpotlightPaused((prev) => !prev);
                 }}
-                className="p-1.5 rounded-full bg-white/92 hover:bg-white text-[#14382C] backdrop-blur-md border border-[#DFBE85]/50 shadow-sm transition-all cursor-pointer"
+                className="p-1.5 rounded-full bg-white hover:bg-[#FAF8F5] text-[#14382C] border border-[#DFBE85]/60 shadow-sm transition-all cursor-pointer"
                 aria-label={spotlightPaused ? "Play" : "Pause"}
               >
-                {spotlightPaused ? <Play className="w-3.5 h-3.5 text-[#8C6D34]" /> : <Pause className="w-3.5 h-3.5 text-[#14382C]" />}
+                {spotlightPaused ? <Play className="w-3.5 h-3.5 text-[#6E5019]" /> : <Pause className="w-3.5 h-3.5 text-[#14382C]" />}
               </button>
             </div>
           </div>
@@ -454,11 +454,11 @@ export default function GallerySection() {
 
                   {/* Top Category Badge & Zoom Trigger */}
                   <div className="absolute top-3.5 left-3.5 right-3.5 flex items-center justify-between">
-                    <span className="text-[10px] uppercase tracking-wider font-bold px-3 py-1 rounded-full bg-white/95 backdrop-blur-md text-[#14382C] border border-[#14382C]/10 shadow-md">
+                    <span className="text-[10px] uppercase tracking-wider font-bold px-3 py-1 rounded-full bg-white text-[#14382C] border border-[#DFBE85]/70 shadow-md">
                       {item.categoryLabel}
                     </span>
-                    <div className="bg-white/95 backdrop-blur-md p-1.5 rounded-lg text-[#14382C] border border-[#14382C]/10 shadow-md opacity-85 group-hover:opacity-100 group-hover:scale-110 transition-all">
-                      <Maximize2 className="w-3.5 h-3.5" />
+                    <div className="bg-white p-1.5 rounded-lg text-[#14382C] border border-[#DFBE85]/60 shadow-md opacity-90 group-hover:opacity-100 group-hover:scale-110 transition-all">
+                      <Maximize2 className="w-3.5 h-3.5 text-[#6E5019]" />
                     </div>
                   </div>
 

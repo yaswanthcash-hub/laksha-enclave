@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#14382C"/>
+      <stop offset="50%" stop-color="#0E281F"/>
+      <stop offset="100%" stop-color="#081813"/>
+    </linearGradient>
+    <linearGradient id="goldGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#F7E7CE"/>
+      <stop offset="35%" stop-color="#DFBE85"/>
+      <stop offset="70%" stop-color="#B38947"/>
+      <stop offset="100%" stop-color="#8C6D34"/>
+    </linearGradient>
+    <linearGradient id="goldLight" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#FFF5E4"/>
+      <stop offset="100%" stop-color="#DFBE85"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Background Base -->
+  <rect width="512" height="512" rx="108" fill="url(#bgGrad)"/>
+  
+  <!-- Outer Gold Border -->
+  <rect x="24" y="24" width="464" height="464" rx="90" fill="none" stroke="url(#goldGrad)" stroke-width="6" opacity="0.85"/>
+  <rect x="36" y="36" width="440" height="440" rx="78" fill="none" stroke="url(#goldGrad)" stroke-width="1.5" stroke-dasharray="6,4" opacity="0.5"/>
+
+  <!-- Crest Pediment / Crown Top Star -->
+  <polygon points="256,68 266,88 288,96 266,104 256,124 246,104 224,96 246,88" fill="url(#goldLight)"/>
+
+  <!-- Villa Classical Pediment Roof -->
+  <path d="M 120 184 L 256 108 L 392 184 Z" fill="none" stroke="url(#goldGrad)" stroke-width="10" stroke-linejoin="round"/>
+  <line x1="108" y1="188" x2="404" y2="188" stroke="url(#goldGrad)" stroke-width="10" stroke-linecap="round"/>
+  <line x1="128" y1="198" x2="384" y2="198" stroke="url(#goldGrad)" stroke-width="4" stroke-linecap="round" opacity="0.8"/>
+
+  <!-- Classical Arch Structure -->
+  <path d="M 160 380 L 160 250 A 96 96 0 0 1 352 250 L 352 380" fill="none" stroke="url(#goldGrad)" stroke-width="8" stroke-linecap="round"/>
+
+  <!-- Outer Columns -->
+  <line x1="140" y1="208" x2="140" y2="390" stroke="url(#goldGrad)" stroke-width="8" stroke-linecap="round"/>
+  <line x1="372" y1="208" x2="372" y2="390" stroke="url(#goldGrad)" stroke-width="8" stroke-linecap="round"/>
+  <!-- Column Bases & Capitals -->
+  <rect x="126" y="202" width="28" height="8" rx="2" fill="url(#goldLight)"/>
+  <rect x="358" y="202" width="28" height="8" rx="2" fill="url(#goldLight)"/>
+  <rect x="124" y="386" width="32" height="10" rx="3" fill="url(#goldLight)"/>
+  <rect x="356" y="386" width="32" height="10" rx="3" fill="url(#goldLight)"/>
+
+  <!-- Plinth Foundation Base -->
+  <line x1="104" y1="402" x2="408" y2="402" stroke="url(#goldGrad)" stroke-width="12" stroke-linecap="round"/>
+  <line x1="120" y1="418" x2="392" y2="418" stroke="url(#goldGrad)" stroke-width="6" stroke-linecap="round" opacity="0.8"/>
+
+  <!-- Regal Monogram "L" inside the Arch -->
+  <path d="M 234 232 L 250 232 L 250 324 L 288 324 C 298 324 304 328 304 336 C 304 344 298 348 288 348 L 234 348 C 224 348 220 340 220 330 L 220 246 C 220 236 224 232 234 232 Z" fill="url(#goldLight)"/>
+
+  <!-- Subtle Palm Frond Accents at Base -->
+  <path d="M 92 370 C 82 320 102 270 120 240 M 86 340 C 98 335 110 338 116 348 M 80 305 C 92 300 106 304 112 315" fill="none" stroke="url(#goldGrad)" stroke-width="3.5" stroke-linecap="round" opacity="0.6"/>
+  <path d="M 420 370 C 430 320 410 270 392 240 M 426 340 C 414 335 402 338 396 348 M 432 305 C 420 300 406 304 400 315" fill="none" stroke="url(#goldGrad)" stroke-width="3.5" stroke-linecap="round" opacity="0.6"/>
+</svg>

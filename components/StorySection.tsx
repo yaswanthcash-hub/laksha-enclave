@@ -195,12 +195,12 @@ function VisualEnclaveCard({
         {/* Top Floating Badges & Fullscreen Button */}
         <div className="absolute top-4 left-4 right-4 flex items-center justify-between z-20">
           <div className="flex items-center space-x-2">
-            <span className="px-3.5 py-1.5 rounded-full bg-white/95 backdrop-blur-md border border-[#DFBE85]/60 shadow-md text-xs font-bold uppercase tracking-wider text-[#14382C]">
-              <span className="font-serif text-[#8C6D34] mr-1.5">{enclave.enclaveNumber}</span>
+            <span className="px-3.5 py-1.5 rounded-full bg-white border border-[#DFBE85]/80 shadow-md text-xs font-bold uppercase tracking-wider text-[#14382C]">
+              <span className="font-serif text-[#6E5019] mr-1.5">{enclave.enclaveNumber}</span>
               {enclave.badge}
             </span>
-            <span className="inline-flex items-center space-x-1.5 px-2.5 py-1 rounded-full bg-[#FAF1DC]/95 backdrop-blur-md border border-[#DFBE85]/60 text-[10px] font-bold text-[#7A5C22] shadow-sm">
-              <span className="w-1.5 h-1.5 rounded-full bg-[#8C6D34] animate-ping" />
+            <span className="inline-flex items-center space-x-1.5 px-2.5 py-1 rounded-full bg-[#FAF1DC] border border-[#DFBE85]/70 text-[10px] font-bold text-[#6E5019] shadow-sm">
+              <span className="w-1.5 h-1.5 rounded-full bg-[#6E5019] animate-ping" />
               <span>⏱ 3s</span>
             </span>
           </div>
@@ -211,10 +211,10 @@ function VisualEnclaveCard({
               e.stopPropagation();
               onOpenModal(enclave.images[currentIdx]);
             }}
-            className="p-2 rounded-full bg-white/90 backdrop-blur-md hover:bg-white text-[#14382C] shadow-md transition-transform hover:scale-110 cursor-pointer"
+            className="p-2 rounded-full bg-white hover:bg-[#FAF8F5] text-[#14382C] border border-[#DFBE85]/70 shadow-md transition-transform hover:scale-110 cursor-pointer"
             title="Expand Full Screen"
           >
-            <Maximize2 className="w-4 h-4 text-[#8C6D34]" />
+            <Maximize2 className="w-4 h-4 text-[#6E5019]" />
           </button>
         </div>
 
@@ -223,9 +223,9 @@ function VisualEnclaveCard({
           {enclave.badges.map((badgeText, bIdx) => (
             <span
               key={bIdx}
-              className="px-2.5 py-1 rounded-lg bg-white/92 backdrop-blur-md text-[11px] font-semibold text-[#14382C] border border-[#DFBE85]/40 shadow-md flex items-center space-x-1.5"
+              className="px-2.5 py-1 rounded-lg bg-white text-[11px] font-bold text-[#14382C] border border-[#DFBE85]/60 shadow-md flex items-center space-x-1.5"
             >
-              <span className="w-1.5 h-1.5 rounded-full bg-[#8C6D34]" />
+              <span className="w-1.5 h-1.5 rounded-full bg-[#6E5019]" />
               <span>{badgeText}</span>
             </span>
           ))}
@@ -393,12 +393,12 @@ export default function StorySection() {
               {/* Top Floating Badge & 3-Second Active Pill */}
               <div className="absolute top-4 left-4 right-4 sm:top-5 sm:left-5 sm:right-5 flex items-center justify-between z-20">
                 <div className="flex items-center space-x-2 sm:space-x-2.5">
-                  <span className="px-3.5 sm:px-4 py-1.5 rounded-full bg-white/92 backdrop-blur-md border border-[#DFBE85]/60 text-xs font-bold text-[#14382C] uppercase tracking-wider flex items-center space-x-2 shadow-md">
-                    <Building2 className="w-3.5 h-3.5 text-[#8C6D34]" />
+                  <span className="px-3.5 sm:px-4 py-1.5 rounded-full bg-white border border-[#DFBE85]/80 text-xs font-bold text-[#14382C] uppercase tracking-wider flex items-center space-x-2 shadow-md">
+                    <Building2 className="w-3.5 h-3.5 text-[#6E5019]" />
                     <span className="truncate max-w-[140px] sm:max-w-none">The Manor Master Showcase</span>
                   </span>
-                  <span className="inline-flex items-center space-x-1.5 px-2.5 sm:px-3 py-1.5 rounded-full bg-[#FAF1DC]/95 backdrop-blur-md border border-[#DFBE85]/60 text-xs font-bold text-[#7A5C22] shadow-sm">
-                    <span className="w-2 h-2 rounded-full bg-[#8C6D34] animate-ping" />
+                  <span className="inline-flex items-center space-x-1.5 px-2.5 sm:px-3 py-1.5 rounded-full bg-[#FAF1DC] border border-[#DFBE85]/70 text-xs font-bold text-[#6E5019] shadow-sm">
+                    <span className="w-2 h-2 rounded-full bg-[#6E5019] animate-ping" />
                     <span>⏱ 3s</span>
                   </span>
                 </div>
@@ -406,10 +406,10 @@ export default function StorySection() {
                 <button
                   type="button"
                   onClick={() => setActiveModalImage(MANOR_SHOWCASE_IMAGES[topShowcaseIdx].src)}
-                  className="p-2 sm:p-2.5 rounded-full bg-white/90 backdrop-blur-md hover:bg-white text-[#14382C] border border-[#DFBE85]/50 transition-transform hover:scale-105 cursor-pointer shadow-md"
+                  className="p-2 sm:p-2.5 rounded-full bg-white hover:bg-[#FAF8F5] text-[#14382C] border border-[#DFBE85]/70 transition-transform hover:scale-105 cursor-pointer shadow-md"
                   title="Expand Full Screen"
                 >
-                  <Maximize2 className="w-4 h-4 text-[#8C6D34]" />
+                  <Maximize2 className="w-4 h-4 text-[#6E5019]" />
                 </button>
               </div>
 

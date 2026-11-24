@@ -490,7 +490,7 @@ export default function MasterplanSection({ onSelectPlotForEnquiry }: Masterplan
                 className="w-full sm:w-auto inline-flex items-center justify-center space-x-2 px-5 py-3.5 rounded-xl border border-[#14382C]/20 hover:border-[#14382C] text-[#14382C] text-xs font-bold uppercase tracking-[0.12em] bg-[#FAF8F5] hover:bg-white transition-all shadow-sm"
               >
                 <Download className="w-4 h-4 text-[#9E7E46]" />
-                <span>Download Master Plan (PDF)</span>
+                <span>Download Master Plan (High-Res)</span>
               </a>
 
               <button

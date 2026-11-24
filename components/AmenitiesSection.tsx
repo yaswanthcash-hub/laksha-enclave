@@ -388,21 +388,21 @@ function AmenityCard({
             />
           </div>
 
-          {/* Top Badges with crisp glassmorphism */}
+          {/* Top Badges with crisp solid opacity */}
           <div className="absolute top-3.5 left-3.5 right-3.5 flex items-center justify-between z-10">
-            <span className="text-[10px] uppercase tracking-wider font-bold px-3 py-1 rounded-full bg-white/95 backdrop-blur-md text-[#14382C] border border-[#14382C]/10 shadow-md">
+            <span className="text-[10px] uppercase tracking-wider font-bold px-3 py-1 rounded-full bg-white text-[#14382C] border border-[#DFBE85]/70 shadow-md">
               {item.footprint}
             </span>
 
             {/* Small 3s Timer Badge in Warm Sand Light */}
-            <div className="flex items-center gap-1.5 px-2.5 py-1 rounded-full bg-[#FAF1DC]/95 backdrop-blur-md text-[#7A5C22] border border-[#DFBE85]/60 text-[10px] font-bold shadow-md">
-              <span className={`w-1.5 h-1.5 rounded-full bg-[#8C6D34] ${!isPaused ? "animate-ping" : "opacity-50"}`} />
+            <div className="flex items-center gap-1.5 px-2.5 py-1 rounded-full bg-[#FAF1DC] text-[#6E5019] border border-[#DFBE85]/70 text-[10px] font-bold shadow-md">
+              <span className={`w-1.5 h-1.5 rounded-full bg-[#6E5019] ${!isPaused ? "animate-ping" : "opacity-50"}`} />
               <span className="tracking-wide">⏱ 3s AUTO</span>
             </div>
           </div>
 
-          {/* Bottom Left Thumbnail Dots & Count in Light Glass */}
-          <div className="absolute bottom-3.5 left-3.5 z-10 flex items-center gap-1.5 bg-white/90 backdrop-blur-md px-2.5 py-1 rounded-full border border-[#DFBE85]/40 text-[#14382C] shadow-sm">
+          {/* Bottom Left Thumbnail Dots & Count in Solid White */}
+          <div className="absolute bottom-3.5 left-3.5 z-10 flex items-center gap-1.5 bg-white px-2.5 py-1 rounded-full border border-[#DFBE85]/60 text-[#14382C] shadow-md">
             <span className="text-[9px] font-mono text-[#14382C] font-semibold mr-0.5">
               {currentIdx + 1}/{images.length}
             </span>
@@ -415,7 +415,7 @@ function AmenityCard({
                     setCurrentIdx(dotIdx);
                   }}
                   className={`h-1.5 rounded-full transition-all duration-300 ${
-                    dotIdx === currentIdx ? "w-4 bg-[#8C6D34]" : "w-1.5 bg-stone-300 hover:bg-stone-500"
+                    dotIdx === currentIdx ? "w-4 bg-[#6E5019]" : "w-1.5 bg-stone-300 hover:bg-stone-500"
                   }`}
                   aria-label={`Switch to render ${dotIdx + 1}`}
                 />
@@ -424,8 +424,8 @@ function AmenityCard({
           </div>
 
           {/* Bottom Right Maximize Button */}
-          <div className="absolute bottom-3.5 right-3.5 z-10 bg-white/95 backdrop-blur-md p-1.5 rounded-lg text-[#14382C] border border-[#14382C]/10 shadow-md opacity-85 group-hover:opacity-100 group-hover:scale-110 transition-all">
-            <Maximize2 className="w-3.5 h-3.5 text-[#14382C]" />
+          <div className="absolute bottom-3.5 right-3.5 z-10 bg-white p-1.5 rounded-lg text-[#14382C] border border-[#DFBE85]/60 shadow-md opacity-90 group-hover:opacity-100 group-hover:scale-110 transition-all">
+            <Maximize2 className="w-3.5 h-3.5 text-[#6E5019]" />
           </div>
 
           {/* Quick Inspect Floating Badge on Hover */}
@@ -502,7 +502,9 @@ export default function AmenitiesSection() {
   }, [lightboxItem, lightboxAutoPlay]);
 
   return (
-    <section id="amenities" className="py-20 sm:py-28 bg-gradient-to-b from-[#FBF0E9] via-[#FCECE3] to-[#FBF0E9] text-[#1A211D] relative border-t border-[#B8583B]/25 overflow-hidden">
+    <section id="amenities" className="py-20 sm:py-28 bg-gradient-to-b from-[#FBF0E9] via-[#FCECE3] to-[#FBF0E9] text-[#1A211D] relative border-t border-[#B8583B]/25 overflow-hidden scroll-mt-20">
+      {/* Target anchor for direct #clubhouse navigation */}
+      <div id="clubhouse" className="absolute top-0 left-0 -mt-20 pointer-events-none" />
       
       {/* Background Ambient Orbs */}
       <div className="ambient-warm-glow w-96 h-96 bg-[#DFBE85]/20 top-20 -left-20 pointer-events-none" />
