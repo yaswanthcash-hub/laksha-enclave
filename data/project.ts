@@ -1,6 +1,6 @@
 /**
  * ============================================================================
- * LAKSH ENCLAVE — MASTER DATA CONFIGURATION & ENTERPRISE SCHEMA (`project.ts`)
+ * LAKSH ENCLAVE · MASTER DATA CONFIGURATION & ENTERPRISE SCHEMA (`project.ts`)
  * ============================================================================
  * 
  * Agency Standard: DAMAC Luxury Real Estate + Awwwards Site of the Year Architecture
@@ -405,7 +405,7 @@ export const INFRASTRUCTURE_FEATURES: InfrastructureFeature[] = [
     category: "Underground Utilities",
     title: "100% Underground Utility Network",
     subtitle: "Zero Overhead Wires · Pristine Open Skies",
-    description: "Every essential utility line—high-voltage power, optical fiber broadband, and street lighting conduits—is engineered completely underground in specialized utility trenches, preserving panoramic sky views.",
+    description: "Every essential utility line (high-voltage power, optical fiber broadband, and street lighting conduits) is engineered completely underground in specialized utility trenches, preserving panoramic sky views.",
     specs: [
       "Concealed underground power distribution cables with individual feeder pillars",
       "Pre-laid optical fiber broadband conduits ready for high-speed FTTH connections",
@@ -705,7 +705,7 @@ export const MASTERPLAN_AMENITIES: MasterplanAmenity[] = [
     coordinates: { x: 750, y: 720 },
     hotspotRadius: 52,
     footprintAreaSqFt: 12000,
-    description: "A floodlit, multi-purpose outdoor sports compound with pro-cushioned surfaces for basketball, badminton, pickleball, and volleyball — keeping kids, parents, and friends active and energized.",
+    description: "A floodlit, multi-purpose outdoor sports compound with pro-cushioned surfaces for basketball, badminton, pickleball, and volleyball, keeping kids, parents, and friends active and energized.",
     highlights: [
       "Dedicated Basketball half-court with regulation hoops",
       "All-weather Badminton & Pickleball play area",

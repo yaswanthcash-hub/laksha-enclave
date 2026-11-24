@@ -1,4 +1,4 @@
-# LAKSH ENCLAVE — LUXURY VILLA WEBSITE MASTER COPY & NARRATIVE ARCHITECTURE
+# LAKSH ENCLAVE  -  LUXURY VILLA WEBSITE MASTER COPY & NARRATIVE ARCHITECTURE
 
 > **Project:** Laksh Enclave  
 > **Location:** Kondarahalli, Bengaluru–Chennai Expressway (NE7), Hoskote–Malur Road, Bangalore East / Greater Whitefield  
@@ -15,7 +15,7 @@ For years, city living has forced Bangalore's discerning families to make an unn
 
 **Laksh Enclave was created to give you the best of both worlds.**
 
-Nestled in the open, fresh countryside of Kondarahalli on the **10-lane Bengaluru–Chennai Expressway (NE7)**, Laksh Enclave is an exclusive gated sanctuary of **150 premium villa plots**. Here, over 800 royal palms line wide, sun-drenched avenues. Children ride bicycles safely along curbed blacktop roads, parents enjoy evening tea on the clubhouse colonial veranda, and you have the complete freedom to build the bespoke home your family has always dreamed of — on freehold land that is truly yours forever.
+Nestled in the open, fresh countryside of Kondarahalli on the **10-lane Bengaluru–Chennai Expressway (NE7)**, Laksh Enclave is an exclusive gated sanctuary of **150 premium villa plots**. Here, over 800 royal palms line wide, sun-drenched avenues. Children ride bicycles safely along curbed blacktop roads, parents enjoy evening tea on the clubhouse colonial veranda, and you have the complete freedom to build the bespoke home your family has always dreamed of  -  on freehold land that is truly yours forever.
 
 ---
 
@@ -64,10 +64,10 @@ export const BRAND_CONFIG = {
 * **Lead Narrative:**
   > "Wake up to fresh morning air, open skies, and over 800 royal palms. Discover a tranquil gated community crafted for just 150 families, offering clear-title freehold plots, resort-style amenities, and direct access to Bangalore's fastest expressway corridor."
 * **Key Stats Strip:**
-  1. `150` — **Premium Villa Plots** *(Clear Freehold Titles)*
-  2. `₹59.40 L*` — **Starting Price** *(1,200 sq.ft onwards)*
-  3. `800+` — **Royal Palms & Trees** *(Lush Green Microclimate)*
-  4. `25 Mins` — **To Whitefield** *(Smooth Signal-Free Drive)*
+  1. `150`  -  **Premium Villa Plots** *(Clear Freehold Titles)*
+  2. `₹59.40 L*`  -  **Starting Price** *(1,200 sq.ft onwards)*
+  3. `800+`  -  **Royal Palms & Trees** *(Lush Green Microclimate)*
+  4. `25 Mins`  -  **To Whitefield** *(Smooth Signal-Free Drive)*
 * **Call to Actions:**
   * **Primary CTA:** `Schedule a Free Site Visit` *(Opens low-friction modal)*
   * **Secondary CTA:** `Download Project Brochure` *(Instant PDF download)*
@@ -83,11 +83,11 @@ export const BRAND_CONFIG = {
 * **Headline (H2):**
   > Wake Up to Fresh Air, Open Skies, and 800+ Palms
 * **Story Narrative:**
-  > "For years, city living has forced families to compromise — trading open space and quiet mornings for daily convenience. We spend hours navigating traffic, live in cookie-cutter apartments high above the earth, and yearn for a piece of ground we can truly call our own.
+  > "For years, city living has forced families to compromise  -  trading open space and quiet mornings for daily convenience. We spend hours navigating traffic, live in cookie-cutter apartments high above the earth, and yearn for a piece of ground we can truly call our own.
   > 
   > **Laksh Enclave was created to give you the best of both worlds.** Nestled in the fresh, open countryside of Kondarahalli on the Bangalore-Chennai Expressway, this is a welcoming neighborhood where your children can ride bicycles along palm-lined avenues, your parents can take peaceful evening strolls, and you can build the custom villa you've always imagined.
   > 
-  > With crystal-clear freehold titles, 100% Vaastu-compliant plot geometry, ready-to-build underground utilities, and an authentic brick clubhouse, Laksh Enclave isn't just an address — it is where your family's happiest memories take root."
+  > With crystal-clear freehold titles, 100% Vaastu-compliant plot geometry, ready-to-build underground utilities, and an authentic brick clubhouse, Laksh Enclave isn't just an address  -  it is where your family's happiest memories take root."
 
 * **The 4 Core Pillars:**
   1. **The Freedom of Land**  
@@ -104,7 +104,7 @@ export const BRAND_CONFIG = {
      *Description:* Direct frontage on the 10-lane Bangalore-Chennai Expressway (NE7) gives you a smooth, predictable drive to Whitefield in 25 mins and Airport in 35 mins.
 
 * **Emotional Pull Quote:**
-  > *"The greatest luxury today is not more square feet in an apartment tower — it is open skies, fresh air, and your own piece of land where your family can flourish."*
+  > *"The greatest luxury today is not more square feet in an apartment tower  -  it is open skies, fresh air, and your own piece of land where your family can flourish."*
 
 ---
 
@@ -133,9 +133,9 @@ export const BRAND_CONFIG = {
   * `East-Facing (Sunrise)`
   * `North-Facing (Prosperity)`
 * **Status Legend:**
-  * `Available` (Green) — Ready for immediate reservation
-  * `Booking in Progress` (Amber) — Under reservation documentation
-  * `Reserved` (Blue) — Allocated to founding family
+  * `Available` (Green)  -  Ready for immediate reservation
+  * `Booking in Progress` (Amber)  -  Under reservation documentation
+  * `Reserved` (Blue)  -  Allocated to founding family
 * **Plot Slide-Over Action Drawer:**
   * `Plot Number: LK-042 | 30' × 50' (1,500 Sq.Ft)`
   * `Facing: East-Facing (100% Vaastu Compliant)`
@@ -193,7 +193,7 @@ export const BRAND_CONFIG = {
 4. **Multi-Sport Championship Arena**
    * *Tagline:* Energize Your Health with Every Game
    * *Badge:* Active Living
-   * *Copy:* A floodlit, multi-purpose outdoor sports compound with pro-cushioned surfaces for basketball, badminton, pickleball, and volleyball — keeping kids, parents, and friends active and energized.
+   * *Copy:* A floodlit, multi-purpose outdoor sports compound with pro-cushioned surfaces for basketball, badminton, pickleball, and volleyball  -  keeping kids, parents, and friends active and energized.
    * *Highlights:*
      - Dedicated Basketball half-court with regulation hoops
      - All-weather Badminton & Pickleball play area
@@ -249,7 +249,7 @@ export const BRAND_CONFIG = {
   > Build the Home You've Always Dreamed Of
 * **Subtitle:** `Whether you prefer warm earthy brick tones or sleek contemporary lines, our curated concepts show you the breathtaking possibilities on your plot.`
 
-#### Concept 01: "The Courtyard Villa" (3 BHK — 2,200 Sq.Ft)
+#### Concept 01: "The Courtyard Villa" (3 BHK  -  2,200 Sq.Ft)
 * **Tagline:** Centered Around Sunlight and Greenery
 * **Recommended Plot:** 1,200 sq.ft (30' × 40')
 * **Bedrooms / Bathrooms:** 3 Beds | 3 Baths | 1 Car Park
@@ -261,7 +261,7 @@ export const BRAND_CONFIG = {
   - Private master suite with balcony overlooking palm trees
   - Covered car park with EV charging point provision
 
-#### Concept 02: "The Palmview Manor" (4 BHK — 3,400 Sq.Ft)
+#### Concept 02: "The Palmview Manor" (4 BHK  -  3,400 Sq.Ft)
 * **Tagline:** Colonial Warmth with Modern Elegance
 * **Recommended Plot:** 1,500 – 2,400 sq.ft (30' × 50' or 40' × 60')
 * **Bedrooms / Bathrooms:** 4 Beds | 4.5 Baths | 2 Car Parks
@@ -273,7 +273,7 @@ export const BRAND_CONFIG = {
   - Family lounge on upper floor overlooking the garden
   - Rooftop terrace garden ready for starlit family dinners
 
-#### Concept 03: "The Horizon Pavilion" (5 BHK — 4,600 Sq.Ft)
+#### Concept 03: "The Horizon Pavilion" (5 BHK  -  4,600 Sq.Ft)
 * **Tagline:** A Contemporary Sanctuary for Generations
 * **Recommended Plot:** 2,400 – 4,000+ sq.ft (Corner / Estate Plots)
 * **Bedrooms / Bathrooms:** 5 Beds | 5.5 Baths | 2 Car Parks
@@ -297,7 +297,7 @@ export const BRAND_CONFIG = {
   > Where Peaceful Living Meets Seamless Connectivity
 * **Subtitle:** `Located at Kondarahalli on the Bangalore-Chennai Expressway (NE7), enjoy the peaceful quiet of nature while remaining smoothly connected to Whitefield, Hoskote, and the international airport.`
 * **Core Advantage:**
-  > "Location is about how easily you move between your sanctuary and your work. At Laksh Enclave, you don't face narrow rural roads or frustrating daily bottlenecks — you step right onto India's world-class 10-lane expressway."
+  > "Location is about how easily you move between your sanctuary and your work. At Laksh Enclave, you don't face narrow rural roads or frustrating daily bottlenecks  -  you step right onto India's world-class 10-lane expressway."
 
 #### Verified Commute Times & Distances
 
@@ -351,10 +351,10 @@ export const BRAND_CONFIG = {
   2. **Phone Number / WhatsApp** `(+91 98765 43210)`
   3. **Email Address** `(anand.sharma@example.com)`
   4. **Preferred Plot Size:**
-     - `1,200 sq.ft (30' × 40') — Starting from ₹59.40 L`
-     - `1,500 sq.ft (30' × 50') — Starting from ₹74.25 L`
-     - `2,400 sq.ft (40' × 60') — Starting from ₹1.18 Cr`
-     - `4,000+ sq.ft (Corner Estate) — Starting from ₹1.98 Cr`
+     - `1,200 sq.ft (30' × 40')  -  Starting from ₹59.40 L`
+     - `1,500 sq.ft (30' × 50')  -  Starting from ₹74.25 L`
+     - `2,400 sq.ft (40' × 60')  -  Starting from ₹1.18 Cr`
+     - `4,000+ sq.ft (Corner Estate)  -  Starting from ₹1.98 Cr`
      - `General Inquiry / Need Guidance`
   5. **Visit Preference:**
      - `This Upcoming Weekend (Sat / Sun)`
@@ -362,7 +362,7 @@ export const BRAND_CONFIG = {
      - `Request Free Cab Pick-up from Whitefield`
      - `Schedule a Virtual Video Call First`
 * **CTA Button:** `Confirm Free Site Visit`
-* **Reassurance Copy:** *"We respect your privacy. No spam, no high-pressure calls — only helpful, friendly assistance."*
+* **Reassurance Copy:** *"We respect your privacy. No spam, no high-pressure calls  -  only helpful, friendly assistance."*
 * **Confirmation Screen:**
   - `Title: Thank You! We Look Forward to Welcoming You.`
   - `Message: Our relationship manager will call you within 2 business hours to confirm your convenient timing and send the exact location pin to your WhatsApp.`

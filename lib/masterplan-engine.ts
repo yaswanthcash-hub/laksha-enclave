@@ -1,6 +1,6 @@
 /**
  * ============================================================================
- * LAKSH ENCLAVE — SVG MASTERPLAN & CANVAS INTERACTIVE ENGINE (`masterplan-engine.ts`)
+ * LAKSH ENCLAVE · SVG MASTERPLAN & CANVAS INTERACTIVE ENGINE (`masterplan-engine.ts`)
  * ============================================================================
  * 
  * Award-Winning Interactive Architectural Masterplan Controller

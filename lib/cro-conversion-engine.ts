@@ -1,6 +1,6 @@
 /**
  * ============================================================================
- * LAKSH ENCLAVE — HIGH-CRO CONVERSION ENGINE (`cro-conversion-engine.ts`)
+ * LAKSH ENCLAVE · HIGH-CRO CONVERSION ENGINE (`cro-conversion-engine.ts`)
  * ============================================================================
  * 
  * Enterprise Luxury Real Estate Conversion Architecture:

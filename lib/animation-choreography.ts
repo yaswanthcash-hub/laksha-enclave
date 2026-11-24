@@ -1,6 +1,6 @@
 /**
  * ============================================================================
- * LAKSH ENCLAVE — GSAP & WEBGL / R3F ANIMATION CHOREOGRAPHY (`animation-choreography.ts`)
+ * LAKSH ENCLAVE · GSAP & WEBGL / R3F ANIMATION CHOREOGRAPHY (`animation-choreography.ts`)
  * ============================================================================
  * 
  * Award-Winning Motion Architecture:

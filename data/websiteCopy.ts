@@ -1,6 +1,6 @@
 /**
  * ============================================================================
- * LAKSH ENCLAVE — AUTHENTIC LUXURY WEBSITE COPY SYSTEM (`websiteCopy.ts`)
+ * LAKSH ENCLAVE · AUTHENTIC LUXURY WEBSITE COPY SYSTEM (`websiteCopy.ts`)
  * ============================================================================
  * 
  * Tone: Warm, human, evocative, serene, transparent, and high-converting.
@@ -140,7 +140,7 @@ export const HERO_COPY = {
   titleMain: "Where Peaceful Living Meets",
   titleAccent: "Seamless Connectivity.",
   subtitle: "A Benchmark Plotted Sanctuary of 150 Luxury Villa Plots",
-  description: "Experience the pinnacle of plotted living across 25 masterplanned acres. Wake up to fresh morning air and 800+ royal palms, with 50ft & 40ft wide boulevards, 100% underground cabling, and direct Bengaluru–Chennai Expressway frontage — just 25 minutes from Whitefield.",
+  description: "Experience the pinnacle of plotted living across 25 masterplanned acres. Wake up to fresh morning air and 800+ royal palms, with 50ft & 40ft wide boulevards, 100% underground cabling, and direct Bengaluru–Chennai Expressway frontage, just 25 minutes from Whitefield.",
   stats: [
     { value: "150", label: "Luxury Villa Plots", subtext: "1,200 to 4,000+ sq.ft" },
     { value: "Price on Request", label: "Founding Allocation", subtext: "Up to 80% Bank Loan Approved" },
@@ -190,7 +190,7 @@ export const ABOUT_COPY = {
     }
   ],
   quote: {
-    text: "The greatest luxury today is not more square feet in an apartment tower — it is open skies, fresh air, and your own piece of land where your family can flourish.",
+    text: "The greatest luxury today is not more square feet in an apartment tower; it is open skies, fresh air, and your own piece of land where your family can flourish.",
     author: "Laksh Enclave Community Vision"
   }
 };
@@ -370,7 +370,7 @@ export const AMENITIES_COPY = {
       tagline: "Energize Your Health with Every Game",
       category: "Sports & Fitness",
       badge: "Active Living",
-      description: "A floodlit, multi-purpose outdoor sports compound with pro-cushioned surfaces for basketball, badminton, pickleball, and volleyball — keeping kids, parents, and friends active and energized.",
+      description: "A floodlit, multi-purpose outdoor sports compound with pro-cushioned surfaces for basketball, badminton, pickleball, and volleyball, keeping kids, parents, and friends active and energized.",
       highlights: [
         "Dedicated Basketball half-court with regulation hoops",
         "All-weather Badminton & Pickleball play area",
@@ -452,8 +452,8 @@ export const AMENITIES_COPY = {
 export const LOCATION_COPY = {
   eyebrow: "Strategic Location Advantage • Bangalore East",
   headline: "Where Peaceful Living Meets Seamless Connectivity",
-  subtitle: "Direct frontage on the 10-lane Bengaluru–Chennai Expressway (NE7) at Kondarahalli / BCE Hedaginabele Toll Plaza — 25 minutes to Whitefield, 18 minutes to STRR, and 35 minutes to the International Airport.",
-  leadStory: "Location is about how easily you move between your sanctuary and your work. At Laksh Enclave, you don't face narrow rural roads or frustrating daily bottlenecks — you step right onto India's world-class 10-lane expressway.",
+  subtitle: "Direct frontage on the 10-lane Bengaluru–Chennai Expressway (NE7) at Kondarahalli / BCE Hedaginabele Toll Plaza: 25 minutes to Whitefield, 18 minutes to STRR, and 35 minutes to the International Airport.",
+  leadStory: "Location is about how easily you move between your sanctuary and your work. At Laksh Enclave, you don't face narrow rural roads or frustrating daily bottlenecks; you step right onto India's world-class 10-lane expressway.",
   expresswayPillars: [
     {
       title: "Direct Access to NE7 Expressway",
@@ -621,10 +621,10 @@ export const LEAD_MODAL_COPY = {
     emailPlaceholder: "anand.sharma@example.com",
     plotPreferenceLabel: "Preferred Plot Size",
     plotOptions: [
-      { id: "1200", label: "1,200 sq.ft (30' × 40') — Starter Villa Plot" },
-      { id: "1500", label: "1,500 sq.ft (30' × 50') — Executive Villa Plot" },
-      { id: "2400", label: "2,400 sq.ft (40' × 60') — Premium Villa Plot" },
-      { id: "4000", label: "4,000+ sq.ft — Royal Estate & Corner Plots" },
+      { id: "1200", label: "1,200 sq.ft (30' × 40') · Starter Villa Plot" },
+      { id: "1500", label: "1,500 sq.ft (30' × 50') · Executive Villa Plot" },
+      { id: "2400", label: "2,400 sq.ft (40' × 60') · Premium Villa Plot" },
+      { id: "4000", label: "4,000+ sq.ft · Royal Estate & Corner Plots" },
       { id: "general", label: "General Inquiry / Need Guidance" }
     ],
     visitPreferenceLabel: "When Would You Like to Visit?",
@@ -636,7 +636,7 @@ export const LEAD_MODAL_COPY = {
     ],
     submitButton: "Confirm Free Site Visit",
     submitting: "Submitting Your Request...",
-    privacyAssurance: "We respect your privacy. No spam, no high-pressure calls — only helpful, friendly assistance."
+    privacyAssurance: "We respect your privacy. No spam, no high-pressure calls: only helpful, friendly assistance."
   },
   success: {
     title: "Thank You! We Look Forward to Welcoming You.",
@@ -657,7 +657,7 @@ export const CTA_COPY = {
     button: "Download Project Brochure (PDF)"
   },
   siteVisitBanner: {
-    title: "Visit Us This Weekend — Feel the Fresh Countryside Air",
+    title: "Visit Us This Weekend · Feel the Fresh Countryside Air",
     subtitle: "Just 25 scenic minutes from Whitefield. Walk the palm boulevards, tour the brick clubhouse, and pick your favorite plot.",
     button: "Book Free Site Tour",
     whatsappButton: "Chat on WhatsApp"
@@ -675,7 +675,7 @@ export const CTA_COPY = {
 export const INFRASTRUCTURE_COPY = {
   eyebrow: "Engineered Plotted Infrastructure",
   headline: "50ft Boulevards, 100% Underground Utilities & Plug-and-Play Readiness",
-  subtitle: "Designed to premier institutional plotted development benchmarks — completely free of overhead wires, with 50ft & 40ft asphalt roads, dedicated water connections, and centralized eco-systems.",
+  subtitle: "Designed to premier institutional plotted development benchmarks, completely free of overhead wires, with 50ft & 40ft asphalt roads, dedicated water connections, and centralized eco-systems.",
   roadHierarchy: {
     mainBoulevard: {
       width: "50 Feet",
@@ -734,7 +734,7 @@ export const INFRASTRUCTURE_COPY = {
       category: "Underground Utilities",
       title: "100% Underground Utility Network",
       subtitle: "Zero Overhead Wires · Pristine Open Skies",
-      description: "Every essential utility line—high-voltage power, optical fiber broadband, and street lighting conduits—is engineered completely underground in specialized utility trenches, preserving panoramic sky views.",
+      description: "Every essential utility line (high-voltage power, optical fiber broadband, and street lighting conduits) is engineered completely underground in specialized utility trenches, preserving panoramic sky views.",
       specs: [
         "Concealed underground power distribution cables with individual feeder pillars",
         "Pre-laid optical fiber broadband conduits ready for high-speed FTTH connections",
@@ -876,7 +876,7 @@ export const BANK_APPROVALS_COPY = {
 export const SIZING_MATRIX_COPY = {
   eyebrow: "Dimension Matrix & Specifications",
   headline: "Standardized Plot Sizing Matrix",
-  subtitle: "From 1,200 sq.ft Starter Luxury plots to 4,000+ sq.ft Palatial Estates — engineered with 100% Vaastu compliance and wide boulevard frontages.",
+  subtitle: "From 1,200 sq.ft Starter Luxury plots to 4,000+ sq.ft Palatial Estates, engineered with 100% Vaastu compliance and wide boulevard frontages.",
   items: [
     {
       id: "matrix-30x40",
