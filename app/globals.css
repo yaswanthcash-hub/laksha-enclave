@@ -1,0 +1,273 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background: #FAF5EB;
+  --foreground: #1A211D;
+}
+
+body {
+  background-color: #FAF5EB;
+  color: #1A211D;
+  font-family: var(--font-manrope), sans-serif;
+  overflow-x: hidden;
+}
+
+/* Custom Scrollbar for Light Theme */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #FAF5EB;
+}
+::-webkit-scrollbar-thumb {
+  background: #C4B293;
+  border-radius: 3px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #9E7E46;
+}
+
+/* ============================================================================
+   LIGHT LUXURY SIGNATURE PALETTE & WASH UTILITIES
+   ============================================================================ */
+
+/* Soft Sage / Celadon Mist (Nature, Royal Palms, Botanical Sanctuary) */
+.bg-celadon-mist {
+  background-color: #F0F6F2;
+}
+.bg-celadon-wash {
+  background: linear-gradient(180deg, #F0F6F2 0%, #E8F2EC 50%, #F4F8F5 100%);
+}
+.bg-celadon-subtle {
+  background-color: #E6F0E9;
+}
+
+/* Warm Champagne / Sunlit Sand (Editorial Heritage & Investment Spines) */
+.bg-warm-champagne {
+  background-color: #FAF5EB;
+}
+.bg-champagne-wash {
+  background: linear-gradient(180deg, #FAF5EB 0%, #F6EFE2 50%, #FAF5EB 100%);
+}
+.bg-sunlit-sand {
+  background-color: #F6EFE2;
+}
+
+/* Soft Terracotta / Warm Peach Sand (The Manor Clubhouse Exposed Brick) */
+.bg-soft-terracotta {
+  background-color: #FBF3EE;
+}
+.bg-terracotta-wash {
+  background: linear-gradient(180deg, #FBF3EE 0%, #F8EBE3 50%, #FAF2ED 100%);
+}
+
+/* Soft Sky Mist / Azure Breeze (Open Sky Corridors & Rapid Transit) */
+.bg-sky-mist {
+  background-color: #F0F5F9;
+}
+.bg-azure-wash {
+  background: linear-gradient(180deg, #F0F5F9 0%, #E6EFF6 50%, #F3F7FA 100%);
+}
+
+/* Glassmorphic Floating Cards & Badges */
+.glass-panel-warm {
+  background: rgba(250, 245, 235, 0.90);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  border: 1px solid rgba(223, 190, 133, 0.45);
+  box-shadow: 0 20px 40px -12px rgba(20, 56, 44, 0.08);
+}
+
+.glass-panel-celadon {
+  background: rgba(240, 246, 242, 0.90);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  border: 1px solid rgba(20, 56, 44, 0.15);
+  box-shadow: 0 20px 40px -12px rgba(20, 56, 44, 0.08);
+}
+
+.glass-badge-overlay {
+  background: rgba(255, 255, 255, 0.92);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border: 1px solid rgba(223, 190, 133, 0.4);
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.08);
+}
+
+/* ============================================================================
+   AWARDS-WINNING VISUAL RICHNESS & LUXURY UTILITIES
+   ============================================================================ */
+
+/* Metallic Champagne & Burnished Gold Gradient Text */
+.gold-gradient-text {
+  background: linear-gradient(135deg, #DFBE85 0%, #B38947 50%, #DFBE85 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.gold-gradient-text-deep {
+  background: linear-gradient(135deg, #B38947 0%, #8C6D34 50%, #B38947 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.terracotta-gradient-text {
+  background: linear-gradient(135deg, #D97757 0%, #B8583B 50%, #8E3B22 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.emerald-gradient-text {
+  background: linear-gradient(135deg, #10B981 0%, #14382C 70%, #0B241C 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+/* Gold Foil Borders & Subtle Shimmer */
+.gold-foil-border {
+  border: 1px solid rgba(196, 160, 96, 0.45);
+  box-shadow: 0 0 20px -3px rgba(223, 190, 133, 0.25), inset 0 0 12px -2px rgba(223, 190, 133, 0.1);
+}
+
+.gold-foil-border-subtle {
+  border: 1px solid rgba(196, 160, 96, 0.25);
+  box-shadow: 0 4px 16px -2px rgba(179, 137, 71, 0.08);
+}
+
+/* Multi-layered Frosted Glass with Gold/White Sheen & Ambient Depth */
+.glass-card-luxury {
+  background: rgba(255, 255, 255, 0.88);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  border: 1px solid rgba(223, 190, 133, 0.35);
+  box-shadow: 
+    0 20px 40px -15px rgba(20, 56, 44, 0.07),
+    0 0 25px -5px rgba(223, 190, 133, 0.15),
+    inset 0 1px 0 rgba(255, 255, 255, 0.8);
+}
+
+.glass-card-celadon {
+  background: rgba(226, 240, 230, 0.85);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  border: 1px solid rgba(197, 226, 205, 0.6);
+  box-shadow: 0 10px 30px -10px rgba(20, 56, 44, 0.08);
+}
+
+/* Ambient Warm Lighting Orbs */
+.ambient-warm-glow {
+  position: absolute;
+  border-radius: 9999px;
+  filter: blur(80px);
+  pointer-events: none;
+  opacity: 0.5;
+}
+
+/* Luxury Badges with Rich Color Tones */
+.luxury-badge-gold {
+  background: linear-gradient(135deg, #FAF4E8 0%, #F3E6D0 100%);
+  color: #8C6D34;
+  border: 1px solid rgba(179, 137, 71, 0.4);
+  box-shadow: 0 2px 10px rgba(179, 137, 71, 0.12);
+}
+
+.luxury-badge-terracotta {
+  background: linear-gradient(135deg, #FDF2EB 0%, #FAE2D5 100%);
+  color: #B8583B;
+  border: 1px solid rgba(184, 88, 59, 0.35);
+  box-shadow: 0 2px 10px rgba(184, 88, 59, 0.12);
+}
+
+.luxury-badge-emerald {
+  background: linear-gradient(135deg, #EBF6F0 0%, #D8ECDF 100%);
+  color: #14382C;
+  border: 1px solid rgba(20, 56, 44, 0.25);
+  box-shadow: 0 2px 10px rgba(20, 56, 44, 0.08);
+}
+
+.luxury-badge-azure {
+  background: linear-gradient(135deg, #E0F4FE 0%, #BAE6FD 100%);
+  color: #0369A1;
+  border: 1px solid rgba(2, 132, 199, 0.35);
+  box-shadow: 0 2px 10px rgba(2, 132, 199, 0.12);
+}
+
+.luxury-badge-turf {
+  background: linear-gradient(135deg, #ECFDF5 0%, #D1FAE5 100%);
+  color: #15803D;
+  border: 1px solid rgba(22, 163, 74, 0.35);
+  box-shadow: 0 2px 10px rgba(22, 163, 74, 0.12);
+}
+
+/* Crisp Light Shadows & Cards */
+.estate-card {
+  background: #FFFFFF;
+  border: 1px solid rgba(20, 56, 44, 0.08);
+  box-shadow: 0 4px 20px -2px rgba(20, 56, 44, 0.05);
+}
+
+.estate-card-hover {
+  transition: all 0.35s cubic-bezier(0.16, 1, 0.3, 1);
+}
+.estate-card-hover:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 16px 36px -4px rgba(20, 56, 44, 0.12);
+  border-color: rgba(158, 126, 70, 0.35);
+}
+
+.gold-badge {
+  background: #F5EFE4;
+  color: #8C6D34;
+  border: 1px solid rgba(158, 126, 70, 0.25);
+}
+
+.green-badge {
+  background: #E8F0EC;
+  color: #14382C;
+  border: 1px solid rgba(20, 56, 44, 0.2);
+}
+
+/* ============================================================================
+   INFINITE MARQUEE ANIMATION FOR RUNNING TICKER
+   ============================================================================ */
+@keyframes marquee {
+  0% {
+    transform: translateX(0%);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
+.animate-marquee {
+  display: flex;
+  width: max-content;
+  animation: marquee 35s linear infinite;
+}
+
+.animate-marquee:hover {
+  animation-play-state: paused;
+}
+
+/* 3-Second Auto-Cycle Progress Timer Animation */
+@keyframes timerProgress3s {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 100%;
+  }
+}
+
+.animate-timer-3s {
+  animation: timerProgress3s 3000ms linear infinite;
+}
+
+.animate-timer-3s-single {
+  animation: timerProgress3s 3000ms linear;
+}
+
+
