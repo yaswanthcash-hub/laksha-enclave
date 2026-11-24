@@ -1,18 +1,5 @@
 import type { Metadata, Viewport } from "next";
-import { Cormorant_Garamond, Manrope } from "next/font/google";
 import "./globals.css";
-
-const cormorant = Cormorant_Garamond({
-  subsets: ["latin"],
-  variable: "--font-cormorant",
-  weight: ["300", "400", "500", "600", "700"],
-});
-
-const manrope = Manrope({
-  subsets: ["latin"],
-  variable: "--font-manrope",
-  weight: ["300", "400", "500", "600", "700"],
-});
 
 export const viewport: Viewport = {
   themeColor: "#FAF8F5",
@@ -47,7 +34,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en" className={`${cormorant.variable} ${manrope.variable} scroll-smooth`}>
+    <html lang="en" className="scroll-smooth">
       <body className="bg-[#FAF5EB] text-[#1A211D] antialiased selection:bg-[#14382C] selection:text-white overflow-x-hidden">
         {children}
       </body>
